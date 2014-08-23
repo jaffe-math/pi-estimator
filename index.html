@@ -1,0 +1,55 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+	<head>
+		<meta charset="UTF-8">
+		<title>Estimating Pi</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="shortcut icon" href="favicon.ico" />
+		<link rel="stylesheet" href="bootstrap.css" type="text/css" media="screen">
+		<link rel="stylesheet" href="montecarlo.css" type="text/css" media="screen">
+		<script src="jquery-2.1.1.min.js"></script>
+		<script src="jquery-ui.min.js"></script>
+		<script src='montecarlo.js'></script>
+	</head>
+	<body class="container">
+		
+		<div id="header" class="row">
+			<div class="col-md-12">
+				<h2>Estimating Pi Using Monte Carlo Methods</h2>
+				<h4>APCS Lesson 29</h4>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-3">
+				<button>Place <span class="qty"></span> points</button>
+				<div class="hide-on-start top-margin">
+					<p>Total dots: <span id="totalCount"></span></p>
+					<p>Dots inside circle: <span id="insideCount"></span></p>
+					<p>Estimate of &pi;: <span id="estimate"></span></p>
+					<p>Actual value of &pi;: <span id="actual"></span></p>
+					<p>Percentage error: <span id="error"></span>%</p>
+				</div>
+			</div>
+			<div class="col-md-6">
+				<canvas id="canvas" width="400" height="400"></canvas>
+			</div>
+			<div class="col-md-3">
+				<p class="divider">How the math works:</p>
+				<p>The ratio of the area of the circle to the area of the square should be proportional to the ratio of points in the circle to the points in the square</p>
+				<img src="ratio.gif" class="img-rounded">
+				<p class="text">Substitute the number of points in each region for the area of each region and solve the above equation for &pi;</p>
+				<img src="eq2.gif" class="eqn">
+				<p>But since 2r = s, this simplifies to</p>
+				<img src="eq3.gif" class="eqn">
+			</div>
+		</div>
+		
+		<div id="footer" class="row">
+			<div class="col-md-12">
+				<p class="small">Estimating Pi <span class="version"></span>
+				MIT License <span data-bind="text: copyrightYear"></span><br/>
+				Source code is at <a href="https://bitbucket.org/rogerjaffe/piestimator/src" target="_blank">BitBucket</a></p>
+			</div>
+		</div>
+	</body>
+</html>

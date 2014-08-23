@@ -1,0 +1,21 @@
+canvas {
+	width: 400px; 
+	height: 400px; 
+	border: 1px solid black;
+}
+
+img {
+	margin-bottom: 10px;
+}
+
+#footer {
+	margin-top: 10px;
+}
+
+.top-margin {
+	margin-top: 5px;
+}
+
+.hide-on-start {
+	display: none;
+}
