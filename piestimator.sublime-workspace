@@ -67,7 +67,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 2143,
+				"buffer_size": 2167,
 				"line_ending": "Unix"
 			}
 		},
@@ -75,7 +75,7 @@
 			"file": "montecarlo.js",
 			"settings":
 			{
-				"buffer_size": 2661,
+				"buffer_size": 3414,
 				"line_ending": "Unix"
 			}
 		},
@@ -512,7 +512,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -521,15 +521,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2143,
+						"buffer_size": 2167,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								833,
-								833
+								2096,
+								2096
 							]
 						],
 						"settings":
@@ -538,10 +538,10 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 126.0,
+						"translation.y": 112.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
@@ -550,15 +550,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2661,
+						"buffer_size": 3414,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2369,
-								2369
+								894,
+								894
 							]
 						],
 						"settings":
@@ -566,10 +566,10 @@
 							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 652.0,
+						"translation.y": 110.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
@@ -597,7 +597,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 2,
 					"type": "text"
 				}
 			]
