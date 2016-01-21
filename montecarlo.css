@@ -1,3 +1,7 @@
+body {
+	font-size: 1.6em;
+}
+
 canvas {
 	width: 400px; 
 	height: 400px; 
